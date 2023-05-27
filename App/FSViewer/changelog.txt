@@ -1,0 +1,724 @@
+   Version 7.7 (August 24, 2022)
+Loads HEIC/HEIF faster by 40% to 100%
+Added "Show Dimension" option to Settings -> Thumbnail tab
+Added "25%" and "75%" options to the Quick Resize menu
+Added an option to Settings -> Programs tab to open external programs using Alt key instead of Ctrl key
+In Draw Board, you can now draw objects continuously without having to select the drawing tool repeatedly
+For Batch Convert/Rename:
+You can now customize the template list for filenames
+Added "Keep Screen On" option to the batch processing dialogs
+For GPS:
+Added a new GPS format DDD° MM.MMMM'
+Added "Show in Open Street Map" option
+For RAW files:
+Supports OM-1 ORF format
+Added "RAW Filter" option to Settings -> RAW tab. This option puts a filter on toolbar to show or hide RAW files with a single click
+When RAW files are hidden by disabling "View RAW files in" option in Settings -> RAW tab, you will have the following new options:
+Handle (rename, delete, copy, move) RAW+JPEG together
+Open RAW in external programs
+Improved text rendering quality in slideshow
+You can now rotate all pages in a multi-page tiff file with a single click
+Other minor improvements and bug fixes
+ 
+
+   Version 7.6 (March 31, 2022)
+Used a new database engine for better performance, capacity, and reliability
+Added "Pre-scan folders into thumbnail database" tool under Settings menu. This tool can be used to get the thumbnails ready before visiting the folders/drives
+Added a rating system to classify files from 1 to 5
+Added 3 new sorting options: Date Taken, Rating and Tagged
+When copying or moving files, tags and ratings will be preserved in the database
+Optimized the program for reduced launch time, faster folder tree creation and network folder access
+Enhanced the 3 built-in themes: Bright, Gray and Dark
+File size of selected items shown in status bar
+In windowed view, merge two status bars into one to maximize viewing area
+Now you can shuffle images in current folder before thumbnail creation is complete
+Added an option (Settings > "Dual Monitor" tab) to select the secondary monitor when more than 2 monitors are detected 
+Added "Center" option to Image Strip Builder
+Added "Preserve Aspect Ratio" option to Image Size in Design and Print tool
+Added hotkeys for Google Maps (Ctrl+Shift+M) and Google Earth (Ctrl+Alt+M) when current image has GPS coordinates
+Added "EXIF Lens Model" option to caption in Contact Sheet, text in Slide Show and text in Batch Convert tool
+Many other small improvements, including vulnerability and bug fixes
+ 
+
+   Version 7.5 (March 10, 2020)
+Added dark (almost black) theme. Now there are 3 themes (Bright, Gray and Dark) under Settings menu
+Added support for audio formats, which can be enabled in the Video tab of Settings window
+Many other minor improvements and bug fixes
+ 
+
+   Version 7.4 (August 28, 2019)
+Improved Clone and Heal. Transparent images are now supported
+Improved Pencil in Draw Board to draw smoother lines
+Fixed a bug that may crash the program when changing browser from details view to thumbnails view
+Fixed a Google Maps launch problem
+Other minor improvements and bug fixes
+ 
+
+   Version 7.3 (June 21, 2019)
+Fixed a bug that caused copy and paste failure in Design and Print
+ 
+
+   Version 7.2 (June 14, 2019)
+Supports FAX, JFIF and TS formats
+Improved processing speed (5X faster) of Batch Rename
+Fixed a bug that failed to load certain TIFF images
+Other improvements and bug fixes
+ 
+
+   Version 7.1 (May 28, 2019)
+Supports HEIC and WEBP formats on Windows 10
+Added Lens Model to EXIF list
+Improved color accuracy when loading CMYK jpeg images
+Improved stability when processing corrupted or ill-intentioned images
+Other improvements and bug fixes
+ 
+
+   Version 7.0 (March 22, 2019)
+Supports monitor color profiles. You can enable this option in the CMS tab of the Settings
+Supports different (bright or dark) skins for dual instances
+Improved compatibility with various scanners
+Fixed a vulnerability that may cause program to crash on corrupted or ill-intentioned images
+Other minor improvements and bug fixes
+ 
+
+   Version 6.9 (January 23, 2019)
+Added support for .M2TS video format
+Added shortcut (Alt+I) for showing File Properties
+Fixed Copy and Paste bug in thumbnail browser
+Other minor improvements and bug fixes
+ 
+
+   Version 6.8 (January 14, 2019)
+Added multithreading support to the built-in batch convert tool. Now it can process multiple images simultaneously (FASTER)
+Added Auto-deskew option to the scan tool
+Many other minor improvements and bug fixes
+ 
+
+   Version 6.7 (October 30, 2018)
+Improved performance of :
+Loading TIFF files
+Updating changes in current folder
+Activating magnifier
+Added "Magnifier + Zoom" and "No Action" to Mouse Click list in the Settings
+Added an option not to attach "_cr" to filename when saving files in Crop Board
+Added an option to use external file as the source image in Clone and Heal
+Updated RAW format library with CR3 support
+Improved support for Touch interface
+Other minor improvements and bug fixes
+ 
+
+   Version 6.6 (September 19, 2018)
+Improved performance:
+Load images faster
+Open big folders faster
+Copy / Move files faster
+Process embedded ICC profiles faster. Now embedded ICC profile support is enabled by default
+Added a new mouse gesture to image magnifier. When the mouse is in a magnifier shape:
+Press and hold down mouse button to activate the magnifier. Release mouse button to hide the magnifier
+Single click mouse button to zoom-in and view the image in actual size(100%). Now you can drag the mouse to view different parts of the image. Single click mouse button again to zoom-out and fit the image to the window
+Added a date range filter to photo importer
+Enhanced internal Video Player
+Option to auto-play current video file
+Option to loop current video file
+In full screen mode, auto-show play bar when you move the mouse
+Auto-show a hint of time position when hovering mouse on the progress bar
+Enhanced the batch convert/rename tool. 
+Now # or * is not required in the filename template
+Now you can expand the canvas by pixels or by percentage
+Added Swap Colors under the Colors menu
+Fixed a DPI related bug in Contact Sheet Builder
+Other minor improvements and bug fixes
+ 
+
+   Version 6.5 (May 02, 2018)
+Enhanced the Import Photos and Videos tool. Now it allows you to import both photos and videos from cell phones, digital cameras and card readers. Previously, video files could not be imported.
+Enhanced the internal Video Player
+Increased the maximum time interval (from 5 minutes to 1 hour) in slideshow
+Other minor improvements and bug fixes
+ 
+
+   Version 6.4 (September 12, 2017)
+Enhanced the internal Video Player and Scan Tool
+Used Q as the shortcut key to tag/untag files
+Used Ctrl+Shift+D as the shortcut key to turn on/off preview on secondary monitor
+When Startup Folder is set to System Default, you will have an option to auto-clear history of visited folders
+Other minor improvements and bug fixes
+ 
+
+   Version 6.3 (July 28, 2017)
+Added an internal video player that:
+Remembers last position
+Auto-plays next video when current video ends
+Plays video in slide show
+Note: We do not provide video codecs. Third party codecs may be required for old versions of Windows
+Enhanced rendering quality of annotations in Draw tool
+Improved support for high bit-rate mp3 in slide show
+Other minor improvements and bug fixes
+ 
+
+   Version 6.2 (February 17, 2017)
+Batch processing dialogs can be maximized
+Supports mouse Forward/Backward buttons 
+Supports F11 key to switch between full screen and windowed mode
+Improved algorithm for conversion to 1-bit color depth
+Improved memory management to handle larger images
+Other minor improvements and bug fixes
+ 
+
+   Version 6.1 (December 23, 2016)
+Improved loading speed of JPEG images
+Added support for ZIP-compressed TIFF images
+Added "Caption" option to the "Design and Print" tool. Now you can print properties such as file name, date/time, dimension below the images
+Added "File name" option to the "Image Strip Builder" tool
+Improved print quality of text in the "Contact Sheet Builder" tool
+Other minor improvements and bug fixes
+ 
+
+   Version 6.0 (October 28, 2016)
+Improved the Straighten/Rotate tool. Now you can rotate and crop the image within the same window
+Added Auto Next Folder option to the Viewer tab of the Settings. This option lets you proceed to the next folder automatically when end of current folder is reached. Alternatively, you can press Alt + left/right arrow keys at the beginning/end of current folder to navigate into adjacent folders
+Added Remember Last Viewed File to the Viewer tab of the Settings
+Added two Zoom Filters (Lanczos_Softer and Bilinear) to the Viewer tab of the Settings
+Added Full Screen Preview to Crop Board
+Added Update File Timestamp option to Save As dialog
+Added Copy Image (Ctrl+Shift+C) to the right click menu on thumbnails
+Added Copy to Clipboard to Image Strip Builder
+Other minor improvements and bug fixes
+ 
+
+   Version 5.9 (September 12, 2016)
+Improved the Straighten/Rotate tool. You are now able to auto-rotate an image by tracing a line along the edge of a building or the horizon
+Improved drag-and-drop between dual instances
+Other minor improvements and bug fixes
+ 
+
+   Version 5.8 (August 26, 2016)
+Supports dual instances. Now you can run two image viewers at the same time, drag and drop images between them, and compare images from different folders side by side
+Added an option to show/hide filenames when comparing images
+Added right-click menu on EXIF list to Copy EXIF to Clipboard
+Displays MP4 and MOV thumbnails on Windows 10
+Updated RAW format library
+Many other small improvements and bug fixes
+ 
+
+   Version 5.7 (June 06, 2016)
+Improved Dark Skin
+Fixed some bugs
+ 
+
+   Version 5.6 (May 20, 2016)
+Added support for high-resolution / 4K monitors
+Optimized transition effects in slide show
+Improved compatibility with Windows 10
+Many other small improvements and bug fixes
+ 
+
+   Version 5.5 (August 14, 2015)
+Fixed a bug which failed to display file properties (Size, Type and Date Modified) in Batch Convert/Rename tool
+ 
+
+   Version 5.4 (July 31, 2015)
+Added support for unicode filenames throughout the software. Now you can view and process images named in different types of characters (e.g. Arabic, Chinese, Greek, Japanese, Korean, Russian ...)
+Added support for symbolic links
+Improved Batch Convert, Crop Board and Draw Board
+Many other improvements and bug fixes
+ 
+
+   Version 5.3 (October 24, 2014)
+Optimized the program to support larger images
+Fixed a bug that might cause the program to crash when pressing W key to open the containing folder
+Other small improvements and bug fixes
+ 
+
+   Version 5.2 (September 24, 2014)
+Now you can copy and paste objects in Draw Board
+Added "Zoom at Center/Mouse Position" to the Settings
+Added "Smart-Filling" to the advanced options (Resize tab) of the Batch Convert tool
+Added Fit Width (Shift+W) and Fit Height (Shift+H) to the Zoom menu
+Improved the Copy/Move to Folder tool. Now you can press 1 to 9 to select a pre-defined destination folder
+Many other improvements and bug fixes
+ 
+
+   Version 5.1 (March 11, 2014)
+Now the Batch Rename tool supports all kinds of files if you select "All Files (*.*)" in the file filter list
+Now you can press +/- keys to zoom in/out animated gif files
+Fixed a bug causing the program to lose track of the current folder when it exits from full screen mode
+ 
+
+   Version 5.0 (February 28, 2014)
+Added option "Crop to Fit Full Screen" to the Slide Show tool
+Added larger thumbnail size (260 x 195 pixels) to the "Thumbnail" tab in the Settings (press F12)
+Added shortcut (Ctrl+Alt+A) for "Auto-Rotate based on EXIF Orientation Tag"
+Now it is possible to use the option "Do not resize if image is already smaller than requested size" when batch-resizing images based on one side
+Now you can tag or untag images even when the magnifier is activated
+Other small improvements and bug fixes
+ 
+
+   Version 4.9 (November 12, 2013)
+Added "Design and Print" (press Alt+P), which allows you to print multiple images with text and effects on one page
+Improved "Adjust Curves". Now you can click and drag in image to adjust the curves directly. Endpoints of the curves are adjustable
+Added "Print Size" option to the Resize tab of the batch convert tool
+Added support of video files to the batch rename tool
+Added "Auto-Resize" option to the image-scanning tool
+Added "Show in Google Maps" and "Show in Google Earth" buttons to the “Image Properties” window. These buttons will be visible if the image has GPS information
+Many other small improvements and bug fixes
+ 
+
+   Version 4.8 (April 04, 2013)
+Added a Minimize button (hidden at the top-right corner of the screen) to full screen mode. Now you can minimize the application to taskbar without exiting the full screen mode
+Added two Mouse Click options to use left/right clicks for previous/next images
+Improved the Draw Board. Now it is possible to draw curved lines
+Improved the Print dialog
+Other improvements and bug fixes
+ 
+
+   Version 4.7 (January 28, 2013)
+Added Touch Interface (tap, swipe, pinch) support throughout the application
+Added a new mouse gesture to move between images: Click at the bottom part of the preview window to switch to the next/preview image
+Improved the Copy/Move dialog. Now it shows an image comparison window and allows you to select Replace, Skip and Rename when handling file name conflicts
+Added an option to let you manually select which photos to download in the "Download Photos" tool
+Improved the Print dialog
+Added a new browser mode (under menu "View"->"Layout"), which provides a bigger image viewing area
+Added a "Reduce Noise" tool
+Improved the Straighten/Rotate dialog. Now it is possible to preserve aspect ratio when rotating an image
+Improved the "Set Wallpaper Anywhere on Desktop" tool with "Drop Shadow" and "Cut" effects
+Improved the "Text" tool in "Draw Board". Now you can see a preview of fonts in the font name list
+Improved "Crop Board" by adding "Original Ratio" to the "Paper Ratio" list
+Improved "Image Comparison" by adding an option to Auto-Fit images to the window
+Improved folder navigation in Windows Libraries
+Updated the RAW format library. Added support for SRW, NRW, RWL files. Added an option in the Raw tab of the Settings to enable/disable Raw files
+Added a new skin called OSX
+Many other minor improvements and bug fixes
+ 
+
+   Version 4.6 (June 29, 2011)
+Improved the "Acquire Images from Scanner" tool
+Other minor improvements and bug fixes
+
+
+   Version 4.5 (April 12, 2011)
+Now it is possible to adjust Lighting, Colors, Levels and Curves within selected areas of an image
+Fixed bugs in the Print and Email dialogs
+
+
+   Version 4.4 (March 25, 2011)
+Improved the "Acquire Images from Scanner" tool (previously called "Scan Board"). Now it supports batch scanning to PDF, TIFF, JPEG and PNG. It allows users to rotate, crop, deskew, annotate, print, email and save scanned images directly within this tool
+Added "Watermark" to the Effects menu
+Added "Auto-Rotate" option to the Print dialog
+Added drag-and-drop capability to the Print dialog
+Improved the USM-Sharpen algorithm by allowing up to 50 pixels in radius
+Improved the "Full Screen Preview" of the "Sharpen/Blur" tool. Now it is possible to make adjustments in full screen mode
+Fixed a bug in the "Adjust Lighting" tool that it could not save changes of Highlights
+Other minor improvements and bug fixes
+ 
+
+   Version 4.3 (January 14, 2011)
+Added Clone Stamp and Healing Brush
+Added "Auto-Adjust Colors" to Colors menu. THANKS to Andras Horvath: www.log69.com
+Added "Adjust Lighting" to lighten or darken shadows and highlights
+Added "Adjust Levels"
+Added "Adjust Curves"
+Added USM (Unsharp Mask) option to Sharpen/Blur
+Added Sketch and Oil Painting effects
+Added outward-pointing tails to text objects in Draw Board
+Now images in Slide Show Builder, Multi-page File Builder, Image Strip Builder and Email list can be drag-and-dropped to rearrange the order
+Supported EPS format by displaying the preview image
+Updated the RAW format library. Sony SR2 raw format is supported
+Improved memory management to handle larger images
+Other minor improvements and bug fixes
+ 
+
+   Version 4.2 (April 29, 2010)
+Now it is possible to batch convert images into PDF files
+Enhanced the magnifier
+Optimized the loading speed of Windowed View
+Fixed some bugs introduced in version 4.1
+Other minor improvements
+ 
+
+   Version 4.1 (April 19, 2010)
+Improved the loading speed of JPEG images and embedded preview of RAW images
+Improved the rendering quality when the Smooth option is turned on
+Enhanced Contact Sheet Builder
+Added "Auto Crop" to the Rotate window
+Added more callout styles in Draw Board
+Added an option to the Settings (press F12) to specify the location (top or bottom) for displaying filename information in full screen
+Other improvements and bug fixes
+ 
+
+   Version 4.0 (November 19, 2009)
+Enhanced the skins and toolbar icons. Now the windows have drop shadow effect in Vista and Windows 7
+Added "Search and Replace" to Batch Rename
+Added "Renaming Preview" to Batch Rename
+Enhanced "Conversion Preview" in Batch Convert. Now it is possible to compare the original and converted images side by side
+In Advanced Options for Batch Convert, added an option to specify whether color adjustments (brightness, contrast, sharpening etc.) should be made before or after resizing.
+Shows GPS information in the "Image Properties" window. A "Show in Google Earth" button will be available if the image has GPS information
+Added "Border Effects" under Edit menu
+Added an option to remove EXIF/IPTC data when emailing images
+Added shortcuts for favorite folders
+Improved performance on network folders
+Improved compatibility with Windows 7
+Fixed bugs
+Other minor improvements
+ 
+
+   Version 3.9 (June 08, 2009)
+Enhanced "Multi-Page File Builder" and "Image Strip Builder" under "Create" menu
+Added "Copy", "Paste" and "Cut" to the right-click menu on folder browser
+Improved performance of selecting files in the thumbnail browser
+When dragging thumbnails, now it is possible to cancel  dragging by pressing Esc key
+Multi-page TIFF files can be saved as multi-page PDF files
+Added 2 languages: Czech and Swedish
+Fixed bugs
+Other minor improvements
+ 
+
+   Version 3.8 (April 27, 2009)
+Now it is possible to draw callout (cloud, oval, rectangular...) objects in "Draw Board"
+Translated user interface into 15 languages
+Added option "Number of Copies" in the "Print" dialog
+Added option "Color Subsampling" (also called "Chroma Subsampling") for saving JPEG files
+Optimized for better performance
+Fixed a bug in version 3.7 that the program cannot auto-refresh when viewing files in a network folder
+Fixed a bug in previous versions that the program cannot view animated GIF files with zero frame delay time
+Other minor improvements
+ 
+
+   Version 3.7 (January 20, 2009)
+Added Preview to the "Batch Convert" tool. Now it is possible to preview the conversion by clicking the "Conversion Preview" button
+Added a checkbox to allow converted files to be saved in their original folders in the "Batch Convert" tool
+Enhanced the "Cover" style of Set as Wallpaper. Now it is possible to zoom and drag an image to set any particular part of it as wallpaper
+Now it is possible to adjust EXIF Timestamp by both hours and minutes using the "Change Timestamp" tool under "Tools" menu
+Added an option to the Settings to determine which (move or copy) action to take when files are dragged to the folder tree
+Enhanced the Magnifier to view large images faster
+Updated the RAW format library. Panasonic RW2 files are supported
+Fixed some bugs
+ 
+
+   Version 3.6 (September 15, 2008)
+Now it runs on both 32-bit and 64-bit Windows
+It plays video files (avi, wmv, mpg) in slide shows
+It is possible to show EXIF / Histogram information and work on the thumbnails at the same time. Just press I key to turn the Image Properties window on/off
+Improved the "Batch-Convert" (under Tools menu):
+Allowed Sorting Files in the Input List
+Added "Expand Mode" option to the Canvas tab of the "Advanced Options" window
+It is now possible to "drag and drop" files from Windows Explorer to the Input List
+Improved the "Draw Board" (under Edit menu). Now annotation objects (texts, lines, boxes etc.) can be edited by re-opening the Draw Board (press D key)
+Added "Animated GIF" as an output option in Multi-Page File Builder
+Added "Multi-Page File Splitter" (under Create menu), which is used to split a multi-page file into single files
+Added "Image Strip Builder" (under Create menu), which is used to put multiple images side by side horizontally or vertically
+Improved the Print dialog
+Fixed some bugs
+
+
+   Version 3.5 (January 15, 2008)
+Added "Side by Side" comparison in "Enhance Colors"
+Added "Line Highlighter" in "Draw Board"
+Enhanced "Text" tool in "Draw Board". Now shadowed text is possible
+Added "Border" effects in "Batch Convert"
+Optimized algorithm for "Text" and "Watermark" in "Batch Convert"
+Updated the RAW format library
+Restored a skin called "Steel" which was dropped in a previous version
+Some UI improvements and bug fixes
+
+
+   Version 3.4 (November 07, 2007)
+Added RGB adjustment to "Enhance Colors"
+Added option "Batch-convert RAW files in" to RAW tab of the Settings
+Added "Wallpaper Builder" to "Create" menu
+Enhanced menu fonts
+Enhanced built-in batch convert tool
+Added a skin with Vista look and feel
+Fixed some bugs
+
+
+   Version 3.3 (October 23, 2007)
+Added "Enhance Colors" (press Ctrl+E), which makes it easy to adjust brightness, gamma, contrast and saturation of the image
+Enhanced "Sharpen/Blur"
+Added "Obscure (Blur)" under "Edit" menu, which can be used to obscure sensitive information in the image
+Added new option "Remind me to save changes" to the Settings. Uncheck this option if you do not want the popup message "Do you want to save the changes you have made to this image?"
+Allowed image tagging in slide show
+Added "Slide Show Builder" (under "Create" menu), which allows you to save a slide show, including image and music files, into a single exe file that can be played in other computers without FastStone Image Viewer
+Enhanced the "Download Photos" tool. Now it is possible to get photos from both cameras and card readers via USB
+Enhanced the "Change Timestamp" under Tools menu. Now it allows you to change/adjust the date time when photos were taken
+Added "Remove JPEG Metadata" to Tools menu. It allows you to remove metadata such as EXIF, IPTC, embedded thumbnails etc from jpeg files
+Added Show Histogram option to the image comparison tool
+Enhanced the RAW library. Now it is recommended to view RAW files using the embedded preview image for faster performance (see RAW tab in the Settings)
+In the image comparison tool, now it is possible to pan around with arrow keys
+Other small improvements in the user interface
+Fixed some bugs
+
+
+   Version 3.2 (April 23, 2007)
+Added option Print current page only in Print dialog
+Improved Rotate by any Degree
+Fixed some bugs
+
+
+   Version 3.1 (April 16, 2007)
+Created a multi-language version
+Improved the Raw library
+Improved navigation (page up/down) of multi-tiff files
+Fixed some bugs
+
+
+   Version 3.0 (February 16, 2007)
+Compatible with Windows Vista
+Added new slideshow option Auto-Play Folders which allows you to play slideshow across multi-folders
+Added Multi-Page File Builder which can combine multiple images into a single file (PDF or TIFF format)
+Improved Multi-Page TIFF support (viewing, printing, saving)
+Support PDF format in Save As dialog
+Support cropping images in a batch (in the built-in Batch Converter)
+Use EXIF date/time (if available) in batch rename
+Fixed some bugs
+
+
+   Version 2.9 (January 18, 2007)
+Enhanced Draw Board (previously called Text Board)
+Added Download from Memory Card. Now it is possible to use FastStone Image Viewer to transfer images from your digital camera's memory card to your computer
+Added new frame masks in Wallpaper Anywhere - Thanks to Albert Hansen and Lu Wei
+Fixed some bugs
+
+
+   Version 2.8 (October 25, 2006)
+Completely new icon design
+Enhanced usability
+Fixed some bugs
+
+
+   Version 2.7 (October 18, 2006)
+Enhanced the magnifier in full screen
+Built-in Screen Capture tools are back (they were removed in previous versions)
+Added Contact Sheet Builder (under Tools menu) - put/print multiple photos on one page. Fully configurable!
+Added Custom Sort - drag & drop to arrange thumbnail orders (For better performance, turn off the Preview panel)
+Now it is possible to drag & drop thumbnails into sub-folders within the thumbnail browser
+Fixed some bugs
+
+
+   Version 2.6 (July 19, 2006)
+Add Wallpaper Anywhere (under Tools menu) that allows you to put photos anywhere on your windows Desktop
+Can open all selected files in external program at a time (Press E key)
+Dual Monitor support (See "Dual Monitor" in the Settings)
+Now it is possible to:
+Drag & Drop the main window to any of the monitors
+Display thumbnail browser and Full Screen preview across two monitors simultaneously
+Display slideshow in the secondary monitor
+
+
+   Version 2.5 (April 21, 2006)
+Add "Overlay (Right on Left)" button in "Compare Images" window, which helps to identify any slight difference between two images
+Add "Compare in Full Screen" button in "Compare Images" window
+Improve Scanner Support in "Scan Board" (press Alt+S). Now you can specify the DPI value of the scanner before scanning
+Filename sorting now uses "Natural Sort". For example, the order of filenames in:
+This version:
+    File1.jpg, File2.jpg, ... File10.jpg, File11.jpg
+Previous version:
+    File1.jpg, File10.jpg, File11.jpg, ... File2.jpg
+Thumbnail Order is remembered when switching folders;
+Add option to turn on / off the Preview window in Browser View
+Support Image Tagging (in the "Tag" menu)
+Now it is possible to tag through a large number of photos in full screen by pressing "\" key
+You can filter out the untagged files and focus on (copy/move/edit/slideshow etc) the tagged ones only
+Options of Image Tagging can be found in "Thumbnail" tab of the Settings (press F12). It can be disabled when option "Allow Image Tagging" is unchecked
+Tag images in "Compare Images" window (press P key)
+Fix minor bugs
+
+
+   Version 2.4 (March 15, 2006)
+Now the built-in screen capture supports multi-monitor system
+Video files ( AVI, MPG, MPEG, WMV, MOV) can be displayed as thumbnails in the browser. Double clicking on a video file will open it in the default media player
+Add "Text Board" (press T key) that allows users to draw the following objects on images:
+Text
+Freehand line
+arrowed line
+Rectangle
+Ellipse
+Watermark
+Add option to display "Rule of Thirds" in "Crop Board" (press X key)
+Other minor improvements
+
+
+   Version 2.30 (February 10, 2006)
+Add SRF (Sony Raw Format) support
+Improve Raw Image rendering and add more compatibilities with new digital cameras
+Add "Fit to Window Width" and "Fit to Window Height" to option "Auto image size" in the Settings (Press F12)
+Add "Mouse Wheel" option in the Settings (Press F12), now it is possible to use the mouse wheel to scroll up and down long graphic files
+Add "Single file deleted to" option in the Settings (Press F12), which has 4 options when deleting a file:
+Recycle-Bin, Confirmation
+Recycle-Bin, No Confirmation
+No Recycle-Bin, Confirmation
+No Recycle-Bin, No Confirmation
+Add option "Reset image position to (0,0) when loading images" in the Settings (Press F12)
+Add two rotation buttons (rotate and save) above the Full Screen thumbnail list (appears when moving the mouse cursor to the top screen border)
+Enhance the "Copy/Move to Folder" window, now it is possible to press C key twice to copy a file, press M key twice to move a file to another folder, i.e. press C to pop up "Copy to Folder" window, press C again to copy the file to the selected folder 
+Other minor improvements
+
+
+   Version 2.29 (November 25, 2005)
+Add "Settings" icon on the toolbar
+Fix some bugs that cause stability problems
+
+
+   Version 2.28 (November 14, 2005)
+Add "Back to/Forward to" buttons on the toolbar above the thumbnail browser
+Improve folder navigation
+Add "JPEG Lossless Rotate Selected Images" to Tools menu
+Enhance JPEG Lossless Rotation - images are optimized for smaller file size
+Add Change Timestamp to Tools menu, now it is possible to set file timestamp as the date/time photo taken (JPEG format only)
+Other minor improvements
+
+
+   Version 2.27 (November 02, 2005)
+Enhance digital camera RAW support
+Add 5 RAW format support: 
+- DNG (Adobe Digital Negative)
+- ORF (Olympus)
+- RAF (Fuji)
+- MRW (Minolta)
+- PEF (Pentax)
+Add an option to "Copy to/Move to" window so that the destination folder can be created if it does not exist
+Enhance EXIF table in Full Screen
+Add an option in the Settings (Press F12) to show Hidden files and folders
+Add an option in the Email-Images window that allows images to be sent as a self-extracting EXE file (another option is ZIP file)
+Parameters in color adjustment window (brightness, contrast etc. ) are remembered/saved for next use
+Add hotkeys Alt+2, Alt+3 ... for the second, third ... external program
+Now it is possible to use PgUp/PgDn/Space key to switch images in the magnifier
+Now it is possible to install the program for all users in the same computer
+Fix thumbnail orientation bug in CR2 and NEF formats
+Add Color Management (embeded ICC) support. To enable it, go to "CMS" tab in the "Settings"
+Add Scroll Navigator in Full Screen (Move the mouse to the bottom edge in Full screen)
+Enhance Crop Board (Press X key) to make it possible to crop multiple images ("Crop to File") using the new "Previous" and "Next" buttons
+Add "Create Portable Application" button to the Settings (Press F12). A portable version of this program can run independently from any folder you dump it in
+Improve performance of "Lossless Crop to File" in Crop Board
+Add "Outer Darkness" control in Crop Board
+Enhance Scroll Navigator (Move the mouse to the bottom edge in Full screen)
+Fix some bugs and make minor enhancements
+
+
+   Version 2.22 (August 25, 2005)
+Optimize the code
+Add an option in the Settings (Thumbnail tab) to turn off Thumbnail Database
+Add option in the Settings (Associations tab) to show "Browse with FastStone" folder context menu in Windows Explorer
+When the displayed image is larger than the current available window or screen area, press Arrow (Up, Down, Left, Right) keys to pan/scroll the image within the current window or screen area
+Add option "Compress images into one single file" (zip format) in the email image feature
+Fix a bug in animated GIF rendering
+Display EXIF information in Image Comparison window
+Enhance Red Eye Removal under the Edit menu
+Fix other minor bugs
+
+
+   Version 2.20 (August 10, 2005)
+Add option "Auto-Hide mouse cursor in Full Screen"
+Add sepia effect
+Retain last path used in Copy to/Move to
+Add "Copy to Folder", "Move to Folder" and "Delete" buttons to toolbar
+Add option "Database Location" (See "Thumbnail" tab in the Settings)
+Fix a bug in animated GIF rendering
+Improve the built-in Screen Capture
+Improve the Advanced Option in "Save As" dialog, now it is easy to preview image quality degradation the parameters might introduce in the saving process
+Add options in the Settings (Thumbnail tab) to customize the browser colors
+Add option to assign parameters to "Edit with External Program" (See "External Programs" tab in the Settings)
+Optimize the code to handle large thumbnail database file more efficiently
+Enhance Crop Board with mouse wheel support (Zoom in/out)
+Add Folder Tree access in Full Screen mode (under the thumbnail strip in Full Screen), now it is possible to switch folder to folder in Full Screen using a folder tree
+Add option "Use JPEG quality from the original file if possible" (see "JPEG" tab in the Settings)
+Create different icons for different associated file formats;
+Some other bugs fixed
+
+
+   Version 2.15 (July 08, 2005)
+Support Canon CR2 Preview
+Add option "Default Unit" in Settings
+Update skins
+Add option "Show Extension" in Renaming(F2) window
+Fix bugs
+
+
+   Version 2.12 (Jun 10, 2005)
+Wrap scrolls in thumbnail browser using left/right arrow keys
+Optimize the code
+Add MacX Skin
+Fix bugs
+
+
+   Version 2.1 (May 30, 2005)
+Auto-complete address bar
+User can select Browser mode/Full screen mode/Windowed mode when double-clicking an image from windows explorer, see Settings for detail
+Enhance EXIF handling in "Save As" menu/button
+Add Favorites menu
+Enhance Copy to Folder/Move to Folder
+Support Auto-Rotate jpeg images based on EXIF orientation tag
+Enhance JPEG comment editing (hotkey: D)
+Fix bugs
+
+
+   Version 2.0.5 (April 22, 2005)
+Paper ratio crop added to Crop board (hotkey changed to X)
+Side by side image comparison added
+Slideshow with 150+ transitional effects enhanced
+JPEG rotation (lossless) improved
+Quick Resize added on left side panel of full screen
+Animated GIF can be viewer in full screen mode
+"Set Root Here" menu is added to folder tree's context menu
+Fix bugs
+
+
+   Version 1.9 (March 18, 2005)
+Support slideshow background music, transitional effects selection
+Support batch image printing
+Add an option called "Folders in Browser" in the settings to hide folders in thumbnail browser
+Update the Setting of Wallpapers
+Fix bugs
+
+
+   Version 1.8 (March 02, 2005)
+Support Digital Camera Raw File, Currently *.CRW and *.NEF
+Support emailing images within the viewer
+Add Fade In/Out to Slideshows
+Fix bugs
+
+
+   Version 1.7 (January 03, 2005)
+Support PSD (Photoshop format) images
+Add hotkey D to edit image Description/Comment
+Add hotkey E to open with the first external program
+Add "Terminate Application" button in full screen mode
+Show the number of selected files in status bar
+Add 600x600 and 650x650 Magnifier sizes
+Add more options in Settings (e.g. Always show taskbar in full screen mode)
+Fix bugs
+
+
+   Version 1.6 (December 21, 2004)
+Support Multi-Page GIF/TIFF, Press Ctrl+PgUp/Ctrl+PgDn for previous/next frame
+Support different thumbnail sizes
+Support image info-popup when mouse moves over the thumbnail
+Press middle mouse button to switch between browser and full screen
+Option (in the settings) to use Left/Right mouse-click to navigate
+Press "L"/"R" to for quick image rotation (loss-less for JPEG images)
+Support Loss-less crop in "Crop Board"
+Press "W" to open Windows Explorer in the current folder
+
+
+   Version 1.5 (December 03, 2004)
+Smooth algorithm enhanced without sacrificing loading time any more
+"Open in Windows Explorer" is added to right click menu on thumbnails
+"Copy/Move to folder" is added to full screen
+"Repeat" option is added to Options
+"Display Filename in Full Screen Image" option is added to Options
+The size of current folder is displayed in the status bar
+Code is optimized to for performance improvement
+
+
+   Version 1.4 (November 25, 2004)
+Old Pictures Effect is updated
+Right-click menu on thumbnails is enhanced
+Copy/Move to folder is possible
+Open With external (other) programs is possible and configurable
+Images selected in thumbnail browser can be flipped, rotated, batch converted/renamed in the right-click menu
+Delete the image file in full screen by simply pressing Del key
+No windows registry used, store settings in application folder
+TIFF output format support for batch converter
+Print dialog retains user settings
+Performance improved
+Minor bugs fixed
